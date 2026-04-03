@@ -1,0 +1,32 @@
+{
+  "name": "game_cakes",
+  "version": "1.0.0",
+  "description": "ER Chess Lite: eligibility-first MagicBlock hackathon MVP",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "solana",
+    "magicblock",
+    "ephemeral-rollups",
+    "hackathon",
+    "chess"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@magicblock-labs/ephemeral-rollups-sdk": "^0.10.3",
+    "@solana/web3.js": "^1.98.4",
+    "buffer": "^6.0.3",
+    "chess.js": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
+  }
+}

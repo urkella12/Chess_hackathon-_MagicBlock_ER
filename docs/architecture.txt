@@ -1,0 +1,24 @@
+ER Chess Lite Architecture
+
+Players (wallets)
+   |
+   v
+Frontend/Script (app/demo.ts)
+   |
+   | 1) create_game (L1)
+   | 2) delegate_game (L1 -> ER delegation)
+   v
+MagicBlock Ephemeral Rollup Session
+   |
+   | 3) make_move x N (ER fast updates)
+   | 4) commit_game (ER -> L1 sync)
+   | 5) end_game_and_undelegate (ER -> L1 + unlock ownership)
+   v
+Solana L1 (final state persisted)
+
+Game PDA fields (MVP):
+- white, black
+- status
+- move_count
+- last_move
+- result
