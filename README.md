@@ -8,25 +8,13 @@ What this project does:
 - writes move activity during ER phase,
 - performs commit and commit+undelegate back to Solana L1.
 
-Result: eligibility-oriented flow is implemented (delegate -> ER activity -> commit -> undelegate) with a clean demo UX.
+Result: flow is implemented (delegate -> ER activity -> commit -> undelegate).
 
-## Why this is eligibility-compliant
-The app uses MagicBlock ER SDK directly:
-- `createDelegateInstruction(...)`
-- `createCommitInstruction(...)`
-- `createCommitAndUndelegateInstruction(...)`
 
-And routes ER tx through:
-- `ConnectionMagicRouter("https://devnet-router.magicblock.app")`
 
-## Current scope
-This is an intentionally lightweight MVP:
-- no full custom Anchor on-chain chess engine in this repo,
-- but fully demonstrable ER lifecycle for hackathon presentation.
 
 ## Quick start
-Open folder:
-- `C:\Users\urkella\Desktop\Game_cakes`
+Open folder;
 
 Commands:
 1) `npm install`
@@ -47,9 +35,3 @@ Commands:
 - `docs/eligibility-checklist.md` — eligibility checklist
 - `docs/architecture.txt` — short architecture map
 - `docs/demo-script.md` — pitch/demo script
-
-## Fast improvements (optional)
-- add Phantom wallet connect,
-- add tx explorer links,
-- add local match history,
-- add timer/animations for stronger presentation.
