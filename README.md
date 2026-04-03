@@ -32,6 +32,5 @@ Commands:
 ## Project structure
 - `src/main.ts` — UI + ER/L1 transaction flow
 - `src/styles.css` — interface styling
-- `docs/eligibility-checklist.md` — eligibility checklist
 - `docs/architecture.txt` — short architecture map
 - `docs/demo-script.md` — pitch/demo script
