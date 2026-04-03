@@ -1,5 +1,9 @@
 # ER Chess Lite (Game_cakes)
 
+
+https://github.com/user-attachments/assets/ac4f1749-54bd-4ba5-9904-feef57b26f4c
+
+
 A lightweight, presentable hackathon MVP with mandatory MagicBlock Ephemeral Rollups integration.
 
 What this project does:
